@@ -1,0 +1,79 @@
+/*
+Theme Name: IMG210 Portolio Child Theme
+Theme URI:
+Description: A child theme of IMG210 Portfolio
+Author: Jason Thompson
+Author URI: <your website>
+Template: img210portfolio
+Version: 0.1.0
+*/
+
+:root {
+    box-sizing: border-box;
+    font-size: 10px;
+
+    --alerternate-backround-color: #aedadd;
+    --body-text-color: #545454;
+    --body-background-color: #fcf8f3;
+    --main-font-color: #555752;
+    --link-color: #29648a;
+    --link-hover-color: #06a77d;
+    --logo-color: #0c1821;
+
+    --default-font: "Open Sans", Helvetica, Arial, sans-serif;
+    --default-font-size: 1.6rem;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--body-background-color);
+    color: var(--body-text-color);
+    font-family: var(--default-font);
+    font-size: var(--default-font-size);
+
+}
+
+.post,
+.page {
+    margin: 0 auto;
+    max-width: 100rem;
+    text-align: center;
+}
+
+/* Navigation */
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-top: 2rem;
+    justify-content: flex-end;
+    
+}
+
+@media only screen and (min-width: 600px) {
+    .nav-menu {
+        justify-content: flex-end;
+    }
+}
+
+.nav-menu li {
+    margin-top: 0;
+}
+
+.nav-menu li+li {
+    padding-left: 3rem;
+}
+
+.nav-menu a {
+    color: var(--link-color);
+}
+
+.nav-menu a:visited {
+    color: var(--link-color);
+}
