@@ -26,7 +26,7 @@
 	if ( $description || is_customize_preview() ) :
 		?>
 			<p class="site-description">
-				<?php echo $description; ?>
+				<?php //echo $description; ?>
 			</p>
 	<?php endif; ?>
 	<?php if ( has_nav_menu( 'menu-1' ) ) : ?>

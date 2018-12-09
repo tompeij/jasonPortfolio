@@ -1,7 +1,7 @@
 /*
 Theme Name: Twenty Sixteen Child Theme
 Theme URI:
-Description: A child theme of Twenty Sixteen
+Description: A child theme of Twenty Sixteen for IMG 210.
 Author: Jason Thompson
 Author URI: <your website>
 Template: twentysixteen
@@ -9,5 +9,47 @@ Version: 0.1.0
 */
 
 body {
-    font-family: sans-serif;
-  }
+  color: pink;
+}
+
+/* :root {
+  box-sizing: border-box;
+  font-size: 10px;
+
+  --alerternate-backround-color: #FFF;
+  --body-text-color: #545454;
+  --body-background-color: #aedadd;
+  --main-font-color: #555752;
+  --link-color: #6e7da2;
+  --link-hover-color: #06a77d;
+  --logo-color: #fcf8f3;
+  --logo-subtitle-color: #6e7da2;
+
+  --default-font: "Open Sans", Helvetica, Arial, sans-serif;
+  --header-font: "Sacramento";
+  --default-font-size: 1.6rem;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--body-background-color);
+  color: var(--body-text-color);
+  font-family: var(--default-font);
+  font-size: var(--default-font-size);
+}
+
+p {
+  line-height: 5;
+  color: pink;
+}
+
+.entry-title {
+  color: var(--logo-color);
+  font-family: var(--header-font);
+  font-size: 7rem;
+} */

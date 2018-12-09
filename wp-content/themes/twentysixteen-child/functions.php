@@ -8,16 +8,3 @@ function theme_enqueue_styles() {
    );
 }
 
-// Add this to the functions.php file of your WordPress theme
-// It filters the mime types using the upload_mimes filter hook
-// Add as many keys/values to the $mimes Array as needed
-
-function my_custom_upload_mimes($mimes = array()) {
-
-	// Add a key and value for the CSV file type
-	$mimes['svg'] = "image/svg+xml";
-
-	return $mimes;
-}
-
-add_action('upload_mimes', 'my_custom_upload_mimes');

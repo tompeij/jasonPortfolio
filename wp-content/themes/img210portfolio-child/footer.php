@@ -15,6 +15,8 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+
+		<p>footer.php</p>
 			<!-- <a href="<?php// echo esc_url( __( 'https://wordpress.org/', 'img210portfolio' ) ); ?>">
 				<?php
 				/* translators: %s: CMS name, i.e. WordPress. */
@@ -24,7 +26,7 @@
 			<span class="sep"> | </span>
 				<?php
 				/* translators: 1: Theme name, 2: Theme author. */
-				//printf( esc_html__( 'Theme: %1$s by %2$s.', 'img210portfolio' ), 'img210portfolio', '<a href="http://underscores.me/">Jason Thompson</a>' );
+				printf( esc_html__( 'Theme: %1$s by %2$s.', 'img210portfolio' ), 'img210portfolio', '<a href="http://underscores.me/">Jason Thompson</a>' );
 				?> -->
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

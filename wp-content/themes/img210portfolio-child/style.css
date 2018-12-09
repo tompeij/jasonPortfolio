@@ -12,15 +12,18 @@ Version: 0.1.0
     box-sizing: border-box;
     font-size: 10px;
 
-    --alerternate-backround-color: #aedadd;
+    --alerternate-backround-color: #FFF;
     --body-text-color: #545454;
-    --body-background-color: #fcf8f3;
+    --body-background-color: #aedadd;
     --main-font-color: #555752;
-    --link-color: #29648a;
-    --link-hover-color: #06a77d;
-    --logo-color: #0c1821;
+    --link-color: #6e7da2;
+    --link-hover-color: #3e5386;
+    --logo-color: #fcf8f3;
+    --logo-subtitle-color: #6e7da2;
 
     --default-font: "Open Sans", Helvetica, Arial, sans-serif;
+    --secondary-font: 'Cormorant Garamond', serif;
+    --header-font: "Sacramento";
     --default-font-size: 1.6rem;
 }
 
@@ -35,35 +38,47 @@ body {
     color: var(--body-text-color);
     font-family: var(--default-font);
     font-size: var(--default-font-size);
+}
 
+h2 {
+    color: var(--link-hover-color);
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+h3 {
+    color: var(--logo-subtitle-color);
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+p {
+    line-height: 2;
+    font-family: var(--secondary-font);
+    font-size: 2rem;
 }
 
 .post,
 .page {
     margin: 0 auto;
-    max-width: 100rem;
     text-align: center;
 }
 
 /* Navigation */
-.nav-menu {
+.menu-main-menu-container .nav-menu {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-    margin-bottom: 0;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-right: 10rem;
     justify-content: flex-end;
     
 }
 
 @media only screen and (min-width: 600px) {
-    .nav-menu {
+    .menu-main-menu-container .nav-menu {
         justify-content: flex-end;
     }
-}
-
-.nav-menu li {
-    margin-top: 0;
 }
 
 .nav-menu li+li {
@@ -72,8 +87,50 @@ body {
 
 .nav-menu a {
     color: var(--link-color);
+    font-size: 2.2rem;
+    font-weight: 200;
+    transition: color 0.5s;
 }
 
-.nav-menu a:visited {
-    color: var(--link-color);
+.nav-menu a:hover {
+    color: var(--link-hover-color);
+}
+
+/* Header Area */
+
+.entry-title {
+    color: var(--logo-color);
+    font-family: var(--header-font);
+    font-size: 9rem;
+}
+
+.home-subtitle {
+    color: var(--logo-subtitle-color);
+    font-weight: 400;
+    font-size: 2rem;
+}
+.home-subtitle span {
+    color: var(--logo-color);
+    text-decoration: underline;
+}
+
+/* Content Area */
+
+.content-container {
+    background-color: var(--alerternate-backround-color);
+    padding: 0 2.5rem;
+}
+
+.content-container-inner {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.jason-portrait {
+    border-radius: 50%;
+}
+
+.wp-block-column h3,
+.wp-block-column p {
+    text-align: left;
 }
