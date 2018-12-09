@@ -8,6 +8,26 @@ Template: img210portfolio
 Version: 0.1.0
 */
 
+
+/* Testing nav slide up */
+
+body {
+    padding-top: 8rem;
+  }
+
+.main-navigation {
+    position: fixed;
+    top: 0;
+    height: 8rem;
+    transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -8rem;
+  }
+
+  /* Basic settings */
+
 :root {
     box-sizing: border-box;
     font-size: 10px;
@@ -39,6 +59,7 @@ body {
     font-family: var(--default-font);
     font-size: var(--default-font-size);
 }
+
 
 h2 {
     color: var(--link-hover-color);
@@ -130,7 +151,81 @@ p {
     border-radius: 50%;
 }
 
+.hello-text {
+    max-width: 78rem;
+}
+
 .wp-block-column h3,
 .wp-block-column p {
     text-align: left;
+}
+
+/* Blog Content Area */
+
+.page-title {
+    color: var(--logo-color);
+    font-family: var(--header-font);
+    font-size: 9rem;
+    text-align: center;
+}
+
+.blog-entry-container {
+    background-color: var(--alerternate-backround-color);
+    height: 70vh;
+    padding: 0 2.5rem;
+}
+
+.blog-entry-container .entry-content {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.blog-entry-container h2 {
+    color: var(--link-hover-color);
+    font-family: var(--default-font);
+    font-weight: 400;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.blog-entry-container p {
+    text-align: left;
+}
+
+/* Footer Nav */
+
+.site-footer p {
+    color: var(--link-color);
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.site-footer p a {
+    text-decoration: none;
+    color: var(--link-color);
+    border-bottom: 1px solid var(--link-color);
+}
+
+.footer-menu {
+    padding: 3.5rem 0 0;
+}
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-menu ul li {
+    list-style-type: none;
+}
+.footer-menu ul li a {
+    color: var(--link-color);
+    padding: 0 3.5rem;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.footer-menu ul li a:hover {
+    color: var(--link-hover-color);
 }

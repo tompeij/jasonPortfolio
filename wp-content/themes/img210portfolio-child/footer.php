@@ -16,18 +16,15 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 
-		<p>footer.php</p>
-			<!-- <a href="<?php// echo esc_url( __( 'https://wordpress.org/', 'img210portfolio' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				//printf( esc_html__( 'Proudly powered by %s', 'img210portfolio' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'img210portfolio' ), 'img210portfolio', '<a href="http://underscores.me/">Jason Thompson</a>' );
-				?> -->
+		<?php wp_nav_menu(
+			array(
+					'theme_location' => 'footer-menu',
+					'container_class' => 'footer-menu'
+				)
+				); ?>
+
+
+			<p>&copy; <?php echo get_the_date( $d = 'Y') ?> <a href="#">Jason Thompson</a>. All rights reserved.</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
