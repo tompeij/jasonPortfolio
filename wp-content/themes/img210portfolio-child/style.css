@@ -9,23 +9,6 @@ Version: 0.1.0
 */
 
 
-/* Testing nav slide up */
-
-body {
-    padding-top: 8rem;
-  }
-
-.main-navigation {
-    position: fixed;
-    top: 0;
-    height: 8rem;
-    transition: top 0.2s ease-in-out;
-}
-
-.nav-up {
-    top: -8rem;
-  }
-
   /* Basic settings */
 
 :root {
@@ -58,6 +41,10 @@ body {
     color: var(--body-text-color);
     font-family: var(--default-font);
     font-size: var(--default-font-size);
+}
+
+footer {
+    margin: 1.5rem 0;
 }
 
 
@@ -117,6 +104,24 @@ p {
     color: var(--link-hover-color);
 }
 
+/* Nav slide up */
+
+body {
+    padding-top: 8rem;
+  }
+
+.main-navigation {
+    position: fixed;
+    top: 0;
+    height: 8rem;
+    transition: top 0.2s ease-in-out;
+}
+
+.nav-up {
+    top: -8rem;
+  }
+
+
 /* Header Area */
 
 .entry-title {
@@ -129,6 +134,7 @@ p {
     color: var(--logo-subtitle-color);
     font-weight: 400;
     font-size: 2rem;
+    margin: 5rem 0;
 }
 .home-subtitle span {
     color: var(--logo-color);
@@ -158,6 +164,19 @@ p {
 .wp-block-column h3,
 .wp-block-column p {
     text-align: left;
+}
+
+/* Project Content Area */
+
+.project-title {
+    font-size: 2.7rem;
+}
+
+.project-sub-title {
+    color: var(--link-color);
+    font-size: 2rem;
+    font-weight: 400;
+
 }
 
 /* Blog Content Area */

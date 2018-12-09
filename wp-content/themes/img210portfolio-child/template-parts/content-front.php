@@ -12,13 +12,14 @@
 <article id="post-<?php the_ID();?>" <?php post_class();?>>
 	<header class="entry-header">
         <?php the_title('<h1 class="entry-title">', '</h1>');?>
+        <?php echo get_image_tag('284', 'iMac with hello world on screen', 'iMac_Hello', 'center') ?>
         <h2 class="home-subtitle">an aspiring <span>web</span> developer.</h2>
 	</header><!-- .entry-header -->
 
 	<?php img210portfolio_post_thumbnail();?>
 
 	<div class="entry-content">
-        <div class=" content-container">
+        <div class="content-container">
             <div class="content-container-inner">
 		<?php
 the_content();
