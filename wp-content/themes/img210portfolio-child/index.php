@@ -17,15 +17,13 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+				<?php echo get_image_tag('48', 'image of a small cloud', 'cloud-medium', 'center') ?>
+					<h1 class="page-title"><?php single_post_title(); ?></h1>
 		<?php
 		if ( have_posts() ) :
 
 			if ( is_home() && ! is_front_page() ) :
 				?>
-				<header>
-					<h1 class="page-title"><?php single_post_title(); ?></h1>
-				</header>
 				<?php
 			endif;
 

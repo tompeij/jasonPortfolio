@@ -11,9 +11,12 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+        <?php echo get_image_tag('48', 'image of a small cloud', 'cloud-medium', 'center') ?>
+        <?php echo get_image_tag('46', 'image of a large cloud', 'cloud-large', 'center') ?>
+        <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+        <?php echo get_image_tag('47', 'image of a medium cloud', 'cloud-small', 'center') ?>
 	</header><!-- .entry-header -->
-
+    
 	<?php img210portfolio_post_thumbnail(); ?>
 
 	<div class="entry-content">

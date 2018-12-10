@@ -30,8 +30,7 @@
 	<?php img210portfolio_post_thumbnail(); ?>
 
 	<div class="entry-content">
-		<div class="content-container">
-            <div class="content-container-inner">
+
 		<?php
 		the_content( sprintf(
 			wp_kses(
@@ -51,8 +50,7 @@
 			'after'  => '</div>',
 		) );
 		?>
-			</div>
-		</div>	
+
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

@@ -9,7 +9,7 @@ Version: 0.1.0
 */
 
 
-  /* Basic settings */
+/* Basic settings */
 
 :root {
     box-sizing: border-box;
@@ -66,6 +66,20 @@ p {
     font-size: 2rem;
 }
 
+a {
+    color: var(--link-color);
+    font-weight: 200;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: var(--link-hover-color);
+}
+
+a:visited {
+    color: var(--link-color);
+}
+
 .post,
 .page {
     margin: 0 auto;
@@ -80,7 +94,7 @@ p {
     padding-top: 3rem;
     padding-right: 10rem;
     justify-content: flex-end;
-    
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -108,7 +122,7 @@ p {
 
 body {
     padding-top: 8rem;
-  }
+}
 
 .main-navigation {
     position: fixed;
@@ -119,10 +133,14 @@ body {
 
 .nav-up {
     top: -8rem;
-  }
+}
 
 
 /* Header Area */
+
+.entry-header {
+    position: relative;
+}
 
 .entry-title {
     color: var(--logo-color);
@@ -136,12 +154,13 @@ body {
     font-size: 2rem;
     margin: 5rem 0;
 }
+
 .home-subtitle span {
     color: var(--logo-color);
     text-decoration: underline;
 }
 
-/* Content Area */
+/* Front Page Content Area */
 
 .content-container {
     background-color: var(--alerternate-backround-color);
@@ -161,12 +180,59 @@ body {
     max-width: 78rem;
 }
 
-.wp-block-column h3,
-.wp-block-column p {
-    text-align: left;
+.wp-block-column {
+    text-align: -webkit-center;
 }
 
-/* Project Content Area */
+@media (min-width: 600px) {
+    .wp-block-column {
+        text-align: initial;
+    }
+
+    .wp-block-column h3,
+    .wp-block-column p {
+        text-align: left;
+    }
+}
+
+/* Project Page Content Area */
+
+.wp-image-46 {
+    position: absolute;
+    right: 15%;
+    bottom: 95%;
+}
+
+.wp-image-47 {
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+}
+
+.wp-image-48 {
+    position: absolute;
+    left: 18%;
+    bottom: 90%;
+}
+
+@media (min-width: 900px) {
+    .wp-image-46 {
+        position: absolute;
+        right: 35%;
+    }
+
+    .wp-image-47 {
+        position: absolute;
+        left: 35%;
+        bottom: 10%;
+    }
+
+    .wp-image-48 {
+        position: absolute;
+        left: 38%;
+        bottom: 80%;
+    }
+}
 
 .project-title {
     font-size: 2.7rem;
@@ -190,7 +256,6 @@ body {
 
 .blog-entry-container {
     background-color: var(--alerternate-backround-color);
-    height: 70vh;
     padding: 0 2.5rem;
 }
 
@@ -204,6 +269,7 @@ body {
     font-family: var(--default-font);
     font-weight: 400;
     font-size: 4rem;
+    padding-top: 5rem;
     text-align: center;
 }
 
@@ -228,6 +294,7 @@ body {
 .footer-menu {
     padding: 3.5rem 0 0;
 }
+
 .footer-menu ul {
     display: flex;
     justify-content: center;
@@ -238,6 +305,7 @@ body {
 .footer-menu ul li {
     list-style-type: none;
 }
+
 .footer-menu ul li a {
     color: var(--link-color);
     padding: 0 3.5rem;
