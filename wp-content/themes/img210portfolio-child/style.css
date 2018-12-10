@@ -118,7 +118,7 @@ a:visited {
     color: var(--link-hover-color);
 }
 
-/* Nav slide up */
+/* SPECIAL STYLING FOR Nav slide up */
 
 body {
     padding-top: 8rem;
@@ -252,6 +252,12 @@ body {
     font-family: var(--header-font);
     font-size: 9rem;
     text-align: center;
+}
+
+.wp-image-349 {
+    position: absolute;
+    right: 20%;
+    top: 10%;
 }
 
 .blog-entry-container {

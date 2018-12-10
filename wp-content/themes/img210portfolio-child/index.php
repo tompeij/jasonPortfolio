@@ -19,6 +19,7 @@ get_header();
 		<main id="main" class="site-main">
 				<?php echo get_image_tag('48', 'image of a small cloud', 'cloud-medium', 'center') ?>
 					<h1 class="page-title"><?php single_post_title(); ?></h1>
+					<?php echo get_image_tag('349', 'image paper airplane', 'airplane', 'center') ?>
 		<?php
 		if ( have_posts() ) :
 
