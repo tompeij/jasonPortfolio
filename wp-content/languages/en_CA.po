@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.0.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-11-30 11:09:09+0000\n"
+"PO-Revision-Date: 2018-12-10 22:23:22+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14828,13 +14828,89 @@ msgstr "Suggestion:"
 msgid "Font Size"
 msgstr "Font Size"
 
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:167 wp-includes/class-wp-locale.php:195
+#: wp-includes/js/dist/components.js:29413
+msgid "December"
+msgstr "December"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:166 wp-includes/class-wp-locale.php:194
+#: wp-includes/js/dist/components.js:29411
+msgid "November"
+msgstr "November"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:165 wp-includes/class-wp-locale.php:193
+#: wp-includes/js/dist/components.js:29409
+msgid "October"
+msgstr "October"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:164 wp-includes/class-wp-locale.php:192
+#: wp-includes/js/dist/components.js:29407
+msgid "September"
+msgstr "September"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:163 wp-includes/class-wp-locale.php:191
+#: wp-includes/js/dist/components.js:29405
+msgid "August"
+msgstr "August"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:162 wp-includes/class-wp-locale.php:190
+#: wp-includes/js/dist/components.js:29403
+msgid "July"
+msgstr "July"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:161 wp-includes/class-wp-locale.php:189
+#: wp-includes/js/dist/components.js:29401
+msgid "June"
+msgstr "June"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
+#: wp-includes/js/dist/components.js:29397
+msgid "April"
+msgstr "April"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
+#: wp-includes/js/dist/components.js:29395
+msgid "March"
+msgstr "March"
+
+#. translators: month name
+#. translators: three-letter abbreviation of the month
+#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
+#: wp-includes/js/dist/components.js:29393
+msgid "February"
+msgstr "February"
+
+#. translators: month name
+#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
+#: wp-includes/js/dist/components.js:29391
+msgid "January"
+msgstr "January"
+
 #. translators: weekday
 #. translators: one-letter abbreviation of the weekday
 #. translators: three-letter abbreviation of the weekday
 #: wp-includes/class-wp-locale.php:135 wp-includes/class-wp-locale.php:144
 #: wp-includes/class-wp-locale.php:153
 msgid "Saturday"
-msgstr "Sat"
+msgstr "Saturday"
 
 #. translators: weekday
 #. translators: one-letter abbreviation of the weekday
@@ -14842,7 +14918,7 @@ msgstr "Sat"
 #: wp-includes/class-wp-locale.php:134 wp-includes/class-wp-locale.php:143
 #: wp-includes/class-wp-locale.php:152
 msgid "Friday"
-msgstr "Fri"
+msgstr "Friday"
 
 #. translators: weekday
 #. translators: one-letter abbreviation of the weekday
@@ -14850,7 +14926,7 @@ msgstr "Fri"
 #: wp-includes/class-wp-locale.php:133 wp-includes/class-wp-locale.php:142
 #: wp-includes/class-wp-locale.php:151
 msgid "Thursday"
-msgstr "Thu"
+msgstr "Thursday"
 
 #. translators: weekday
 #. translators: one-letter abbreviation of the weekday
@@ -14858,7 +14934,7 @@ msgstr "Thu"
 #: wp-includes/class-wp-locale.php:132 wp-includes/class-wp-locale.php:141
 #: wp-includes/class-wp-locale.php:150
 msgid "Wednesday"
-msgstr "Wed"
+msgstr "Wednesday"
 
 #. translators: weekday
 #. translators: one-letter abbreviation of the weekday
@@ -14866,7 +14942,7 @@ msgstr "Wed"
 #: wp-includes/class-wp-locale.php:131 wp-includes/class-wp-locale.php:140
 #: wp-includes/class-wp-locale.php:149
 msgid "Tuesday"
-msgstr "Tue"
+msgstr "Tuesday"
 
 #. translators: weekday
 #. translators: one-letter abbreviation of the weekday
@@ -14874,89 +14950,13 @@ msgstr "Tue"
 #: wp-includes/class-wp-locale.php:130 wp-includes/class-wp-locale.php:139
 #: wp-includes/class-wp-locale.php:148
 msgid "Monday"
-msgstr "Mon"
+msgstr "Monday"
 
 #. translators: weekday
 #: wp-includes/class-wp-locale.php:129 wp-includes/class-wp-locale.php:138
 #: wp-includes/class-wp-locale.php:147
 msgid "Sunday"
-msgstr "Sun"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:167 wp-includes/class-wp-locale.php:195
-#: wp-includes/js/dist/components.js:29413
-msgid "December"
-msgstr "Dec"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:166 wp-includes/class-wp-locale.php:194
-#: wp-includes/js/dist/components.js:29411
-msgid "November"
-msgstr "Nov"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:165 wp-includes/class-wp-locale.php:193
-#: wp-includes/js/dist/components.js:29409
-msgid "October"
-msgstr "Oct"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:164 wp-includes/class-wp-locale.php:192
-#: wp-includes/js/dist/components.js:29407
-msgid "September"
-msgstr "Sep"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:163 wp-includes/class-wp-locale.php:191
-#: wp-includes/js/dist/components.js:29405
-msgid "August"
-msgstr "Aug"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:162 wp-includes/class-wp-locale.php:190
-#: wp-includes/js/dist/components.js:29403
-msgid "July"
-msgstr "Jul"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:161 wp-includes/class-wp-locale.php:189
-#: wp-includes/js/dist/components.js:29401
-msgid "June"
-msgstr "Jun"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
-#: wp-includes/js/dist/components.js:29397
-msgid "April"
-msgstr "Apr"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
-#: wp-includes/js/dist/components.js:29395
-msgid "March"
-msgstr "Mar"
-
-#. translators: month name
-#. translators: three-letter abbreviation of the month
-#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
-#: wp-includes/js/dist/components.js:29393
-msgid "February"
-msgstr "Feb"
-
-#. translators: month name
-#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
-#: wp-includes/js/dist/components.js:29391
-msgid "January"
-msgstr "Jan"
+msgstr "Sunday"
 
 #: wp-includes/comment-template.php:1533
 msgid "Enter your password to view comments."
