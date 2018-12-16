@@ -17,6 +17,7 @@ Version: 0.1.0
 
     --alerternate-backround-color: #FFF;
     --body-text-color: #545454;
+    --body-hr-color: rgba(84, 84, 84, 0.3);
     --body-background-color: #aedadd;
     --main-font-color: #555752;
     --link-color: #6e7da2;
@@ -68,7 +69,9 @@ p {
 
 a {
     color: var(--link-color);
-    font-weight: 200;
+    font-weight: 400;
+    font-size: 2.1rem;
+    text-decoration: none;
     transition: color 0.5s;
 }
 
@@ -84,6 +87,16 @@ a:visited {
 .page {
     margin: 0 auto;
     text-align: center;
+}
+
+/* Horizontal Rule */
+.wp-block-separator.is-style-dots:before {
+    color: var(--body-hr-color);
+    content: "\00b7 \00b7 \00b7 \00b7 \00b7";
+    font-family: serif;
+    font-size: 50px;
+    letter-spacing: 0.15em;
+    padding-left: 0.25em;
 }
 
 /* Navigation */
@@ -152,7 +165,7 @@ body {
     color: var(--logo-subtitle-color);
     font-weight: 400;
     font-size: 2rem;
-    margin: 5rem 0;
+    margin: 7.5rem 0;
 }
 
 .home-subtitle span {
@@ -195,7 +208,22 @@ body {
     }
 }
 
+.email-btn a {
+    box-shadow: 0 .5rem 1rem lightgray;
+    padding: 1.5rem 4rem;
+}
+
+.email-btn a:active {
+    box-shadow: 0 .25rem 1rem lightgray;
+    transform: translateY(0.25rem);
+}
+
 /* Project Page Content Area */
+
+.content-container-inner a {
+    border-bottom: thin solid var(--link-color);
+}
+
 
 .wp-image-46 {
     position: absolute;
